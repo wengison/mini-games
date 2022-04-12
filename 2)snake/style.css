@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gameboard {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: solid whitesmoke 1px;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+}
+
+.field {
+    border: black solid 1px;
+    color: limegreen;
+    border-radius: 2px;
+}
+
+.start {
+    width: 5em;
+    position: absolute;
+    bottom: 130;
+    cursor: pointer;
+}
+.pause {
+    width: 5em;
+    position: absolute;
+    bottom: 100;
+    cursor: pointer;
+}
+
+.apple {
+    background-color: red;
+}
+
+.score {
+    position: absolute;
+    top: 100;
+    color: white;
+}
