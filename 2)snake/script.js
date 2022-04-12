@@ -189,12 +189,8 @@ window.addEventListener("keydown", e => {
         directionPlus = false;
         directionMinus = true;
     } 
-// ----------------------
   });
 
 // 
 // bugs: border fields problem, -x direction eat(), -y direction eat(), eat() in other cases, start/stop listeners
-
 // function gameover(), save score to localstorage
-
-// ..
